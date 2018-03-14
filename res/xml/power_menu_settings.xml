@@ -23,7 +23,7 @@
         android:key="screenshot"
         android:title="@string/power_menu_screenshot_title"
         android:summary="@string/power_menu_screenshot_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <CheckBoxPreference
         android:key="airplane"
@@ -43,5 +43,5 @@
     <CheckBoxPreference
         android:key="lockdown"
         android:title="@string/power_menu_lockdown_title"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 </PreferenceScreen>
