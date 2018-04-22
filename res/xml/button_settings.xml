@@ -25,4 +25,9 @@
         android:summary="@string/volbtn_music_controls_summary"
         android:defaultValue="true" />
 
+    <PreferenceScreen
+        android:key="advanced_options"
+        android:title="@string/advanced"
+        android:fragment="org.carbonrom.carbonfibers.fragments.buttons.AdvancedOptions" />
+
 </PreferenceScreen>
